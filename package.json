@@ -1,0 +1,33 @@
+{
+  "name": "wcbetserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilsonfcastilho/wcbet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vilsonfcastilho/wcbetserver/issues"
+  },
+  "homepage": "https://github.com/vilsonfcastilho/wcbetserver#readme",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.1.7",
+    "prisma": "^4.6.1",
+    "prisma-erd-generator": "^1.2.3",
+    "r": "^0.0.5",
+    "tsx": "^3.12.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@prisma/client": "^4.6.1",
+    "fastify": "^4.9.2"
+  }
+}
